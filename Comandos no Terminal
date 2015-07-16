@@ -1,0 +1,37 @@
+COMANDOS
+
+
+
+APT-GET
+apt-get install nanana:
+apt-get remove nanana:
+apt-get update:
+apt-add-repository ppa:nanana/nana
+
+
+BASH
+mam: abre o manual
+rm -r nanana
+pwd:
+ls: lista os arquivos e pastas a partir do diretorio presente
+cd : navega pelas pastas
+mkdir nanana: monta o diretorio
+history: lista as instrucoes dadas no terminal
+history | less: abre a lista de instruções no programa less especializado em ler arquivos
+history | grep palavra: busca palavra na lista history
+nano: editor no terminal
+source /nanana/nana/nana.sh: executa o programa enderecado
+find / -name nanana.sh: busca arquivo
+
+PYTHON
+pip: gerenciador de pacotes python
+pip install nanana: instala nanana
+pip install -r arquivo.txt instala os pacotes descritos no arquivo.txt
+pip freeze: mostra a lista de pacotes instalados no ambiente em uso
+pip freeze > arquivo.txt: cria um arquivo com a lista acima
+
+VIRTUALENV
+mkvirtualenv nomedavirtualenv:  cria a virtualenv nomedavirtualenv
+deactivate: sai da virtualenv
+workon nanana: abre a virtualenv nanana
+lsvirtualenv: lista as virtualenv no sistema
